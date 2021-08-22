@@ -7,7 +7,7 @@
 ```rust
 use bb8_skytable::{
     bb8,
-    skytable:{actions::Actions, Query},
+    skytable:{actions::Actions},
     SkytableConnectionManager
 };
 
@@ -15,10 +15,7 @@ use bb8_skytable::{
 async fn main() {
 	let manager = SkytableConnectionManager::new("127.0.0.1", 2003);
 	let pool = bb8::Pool::builder().build(manager).await.unwrap();
-	let manager = SkytableConnectionManager::new("127.0.0.1", 2003);
-	let pool = bb8::Pool::builder().build(manager).await.unwrap();
-	let pool = bb8::Pool::builder().build(manager).await
-  	let mut conn = pool.get().await.unwrap();!
-    conn.set(x, "2".to_string()).await.unwrap();
+  	let mut conn = pool.get().await.unwrap();
+    conn.set("x", "100").await.unwrap();
 }
 ```
