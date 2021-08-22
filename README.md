@@ -1,6 +1,6 @@
 # bb8-skytable
 
-[Skytable rust client](https://github.com/skytable/client-rust) support library for the [bb8](https://github.com/djc/bb8) connection pool.
+[Skytable rust client](https://github.com/skytable/client-rust) support library for the [bb8](https://github.com/djc/bb8) connection pool. Heavily based on [bb8-redis](https://github.com/djc/bb8/tree/main/redis)
 
 # Basic usage example
 

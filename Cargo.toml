@@ -1,21 +1,19 @@
 [package]
 name = "bb8-skytable"
-version = "0.1.0"
+version = "0.2.0"
 authors = [
-    "Nils Kanevad <nils@kanevad.se>"
+	"Nils Kanevad <nils@kanevad.se>"
 ]
 edition = "2018"
 description = "Async bb8 connection pool for Skytable"
 repository = "https://github.com/heliumbrain/bb8-skytable"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
+readme = "README.md"
 
 [dependencies]
 bb8 = "0.7.1"
 async-trait = "0.1"
 skytable = { version = "0.5.0", features= ["async"] }
-
-
 
 [dev-dependencies]
 futures-util = "0.3.15"
