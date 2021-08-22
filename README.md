@@ -1,3 +1,6 @@
+[![Documentation](https://docs.rs/bb8-skytable/badge.svg)](https://docs.rs/bb8-skytable/)
+[![Crates.io](https://img.shields.io/crates/v/bb8-skytable.svg)](https://crates.io/crates/bb8-skytable)
+
 # bb8-skytable
 
 [Skytable rust client](https://github.com/skytable/client-rust) support library for the [bb8](https://github.com/djc/bb8) connection pool. Heavily based on [bb8-redis](https://github.com/djc/bb8/tree/main/redis)
