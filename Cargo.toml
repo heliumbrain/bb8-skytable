@@ -11,10 +11,10 @@ license = "MIT"
 readme = "README.md"
 
 [dependencies]
-bb8 = "0.7.1"
+bb8 = "0.7"
 async-trait = "0.1"
 skytable = { version = "0.6.0", features= ["async"] }
 
 [dev-dependencies]
-futures-util = "0.3.15"
-tokio = { version = "1.0.0", features = ["macros", "rt-multi-thread"] }
+futures-util = "0.3"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
