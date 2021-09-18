@@ -13,7 +13,7 @@ readme = "README.md"
 [dependencies]
 bb8 = "0.7.1"
 async-trait = "0.1"
-skytable = { version = "0.5.0", features= ["async"] }
+skytable = { version = "0.6.0", features= ["async"] }
 
 [dev-dependencies]
 futures-util = "0.3.15"
