@@ -10,7 +10,7 @@
 ```rust
 use bb8_skytable::{
     bb8,
-    skytable:{actions::Actions},
+    skytable::{actions::Actions},
     SkytableConnectionManager
 };
 
